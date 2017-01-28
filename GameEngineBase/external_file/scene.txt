@@ -1,0 +1,80 @@
+models name(New Model names need to be configured in code), 
+:path,
+:rotation,
+:position in x,y,z ,
+:color in rgb ,
+:scale
+and specify if we can control that object (1 = can control , 0 = no control ) , Only 1 object can be controlled at a time
+
+start
+Player
+ply/player1.ply
+0.0 0.0 0.0
+4.0 2.0 -3.8
+0.1 0.1 0.15
+0.5
+1
+PowerUp
+ply/Shield2.ply
+0.0 0.0 0.0
+3.8 0.4 0.257
+0.1 0.2 0.2
+0.4
+0
+Enemy
+ply/Spider.ply
+0.0 0.0 0.0
+0.185 0.3 4.157
+0.1 0.0 0.0
+0.5
+0
+Enemy
+ply/Spider.ply
+0.0 0.0 0.0
+4.56 0.3 3.5
+0.1 0.0 0.0
+0.5
+0
+Enemy
+ply/Spider.ply
+0.0 0.0 0.0
+-3.943 0.3 -3.949
+0.1 0.0 0.0
+0.5
+0
+Enemy
+ply/Spider.ply
+0.0 0.0 0.0
+1.6 0.3 -2.73
+0.1 0.0 0.0
+0.5
+0
+Boss
+ply/Spider.ply
+0.0 0.0 0.0
+-4.1 0.3 4.57
+1.0 0.0 1.0
+0.5
+2
+Minion
+ply/Spider.ply
+0.0 0.0 0.0
+-3.17 0.3 4.57
+0.1 1.0 0.0
+0.5
+3
+Minion
+ply/Spider.ply
+0.0 0.0 0.0
+-4.31 0.3 3.7
+0.1 1.0 0.0
+0.5
+3
+Terrain
+ply/MAP2.ply
+0.0 0.0 0.0
+0.0 0.0 0.0
+0.1 0.2 0.1
+10.0
+0
+end

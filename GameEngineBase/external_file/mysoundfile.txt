@@ -1,0 +1,10 @@
+start
+somesounds/startGame_stream.mp3
+somesounds/inGame_stream.mp3
+sample
+somesounds/victory.wav
+somesounds/explosion.mp3
+somesounds/gameOver_sample.mp3
+somesounds/onhit.wav
+somesounds/pickup.wav
+end

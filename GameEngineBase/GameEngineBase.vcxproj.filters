@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Types">
+      <UniqueIdentifier>{daa2aff0-20e1-441a-8a63-5e93f8949e5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OpenGL">
+      <UniqueIdentifier>{1711b83d-32d8-4733-ae1c-533a66e48690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timer">
+      <UniqueIdentifier>{52515051-8920-4deb-8ef7-ac0cef732702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{5f61f937-2141-489b-bdca-2f2b77c2f197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Delegator">
+      <UniqueIdentifier>{ca248fbb-a184-42da-a6db-63ffbe66a518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ModelData">
+      <UniqueIdentifier>{3cd021dd-0571-4aee-96bf-4f76907e7196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{c5222588-dca0-4d74-8091-f33070f3a92c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{2f8b5de5-7b18-472a-a6b3-25873aa2bcb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Delegates">
+      <UniqueIdentifier>{2cee3561-61a3-46e4-962c-77b9b2fe0818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Delegates\LoadFromFile">
+      <UniqueIdentifier>{cd316bfb-4c0e-497b-b6b1-6e623be386d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Delegates\Mediator">
+      <UniqueIdentifier>{6b12ffa2-e929-491c-86fa-c2c5abfabc3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Delegates\Movement">
+      <UniqueIdentifier>{d917a4c9-2705-44eb-83e4-30a8699f7421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{d150d409-2ff8-49b5-bc5f-0b62b8a9825d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Delegates\Collision">
+      <UniqueIdentifier>{473bff09-c28a-4333-8242-2afe9ebe0315}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Delegates\AI">
+      <UniqueIdentifier>{8ea98f28-aed4-42fb-ac68-5958d237dd38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interfaces">
+      <UniqueIdentifier>{7bd527d8-c06a-41b6-a787-c0bc8a424779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Delegates\Audio">
+      <UniqueIdentifier>{9edc6f81-3dea-4470-a02c-5b2f85c8640b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vector3D.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="master.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CHRTimer.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="plyInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="modelData.h">
+      <Filter>ModelData</Filter>
+    </ClInclude>
+    <ClInclude Include="vertexType.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="shaderUniformVariables.h">
+      <Filter>Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="fileDataLoader.h">
+      <Filter>Delegates\LoadFromFile</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="delegator.h">
+      <Filter>Delegator</Filter>
+    </ClInclude>
+    <ClInclude Include="sphere.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="mediator.h">
+      <Filter>Delegates\Mediator</Filter>
+    </ClInclude>
+    <ClInclude Include="movementManager.h">
+      <Filter>Delegates\Movement</Filter>
+    </ClInclude>
+    <ClInclude Include="collisionTest.h">
+      <Filter>Delegates\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="pathfinder.h">
+      <Filter>Delegates\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="node.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="terrain.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObjectBase.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="powerup.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="audioManager.h">
+      <Filter>Delegates\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Idelegator.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Vector3D.cpp">
+      <Filter>Types</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openGL_Init.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="global.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="openGL_ErrorCntrl.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="openGL_resize.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="openGL_IdleFunc.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="CHRTimer.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="openGL_CloseFunc.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="openGL_KeyboardSplFunc.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="modelData.cpp">
+      <Filter>ModelData</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="shaderUniformVariables.cpp">
+      <Filter>Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="fileDataLoader.cpp">
+      <Filter>Delegates\LoadFromFile</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="delegator.cpp">
+      <Filter>Delegator</Filter>
+    </ClCompile>
+    <ClCompile Include="openGL_DisplayFunc.cpp">
+      <Filter>OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="sphere.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="mediator.cpp">
+      <Filter>Delegates\Mediator</Filter>
+    </ClCompile>
+    <ClCompile Include="movementManager.cpp">
+      <Filter>Delegates\Movement</Filter>
+    </ClCompile>
+    <ClCompile Include="collisionTest.cpp">
+      <Filter>Delegates\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="node.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="pathfinder.cpp">
+      <Filter>Delegates\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="terrain.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObjectBase.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="powerup.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="audioManager.cpp">
+      <Filter>Delegates\Audio</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

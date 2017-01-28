@@ -1,0 +1,62 @@
+Code change log .......
+
+1 . Follow boss functionality ---
+-In enemy class added 
+	bool isBoss;
+	int bossId ;
+	
+	//sets if Enemy is a boss 
+	void setIsBoss();
+
+	//sets if Enemy Has a boss 
+	void setBossId(int value);
+
+	//fetches Boss Id
+	int getBossId();
+	
+-Changes in Update function (enemy.cpp line 28)
+-In delegator class
+  Vector3D getDistanceFromBoss(Vector3D pos);
+    Vector3D getBossPos();
+	
+	bool isBossAlive();
+	GLuint boss_id;
+	
+	
+-In file Loader class 
+loadSceneFromFileWithSinglePlayer(GameMediator* mediator  ,std::vector <GameObjectBase*> &list, unsigned  int &playerID,unsigned  int &bossID)
+
+-In external scene.txt file 
+
+
+2. Boss orders minions to attack (Basically Boss waits till all minions attack) (Fuzzy logic implementation)
+-Changes in Update function (enemy.cpp line 28)
+
+
+3. Matrix Stack (When player gets shield , shield becomes child of player )
+-In GameObjectBase 
+     std::vector<GameObjectBase*> childObjects;
+	 
+	 bool hasChildObjects();
+
+	void attachChildObject(GameObjectBase* obj);
+
+	std::vector<GameObjectBase*> getChildObjects();
+	
+-Changes in PowerUp.cpp 
+	Update( float deltaTime ) line no 15 
+-Changes in openGL_DisplayCallback.cpp
+
+-Changes in player.cpp 
+-Changes in equipPlayer method in delegator 
+
+
+4. Winning animation (Enemies simply fly away)
+- Added new global variable gameWin 
+- Added enemiesFlee in delegator 
+- Changes in IdleCallback 
+
+
+
+
+ 
